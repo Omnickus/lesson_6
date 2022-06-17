@@ -1,7 +1,6 @@
 from src.base_page import Base_page
 from src.constructor import Find_el
 from src.constructor import Placeholder
-import time
 
 
 class Registration(Base_page):
@@ -59,3 +58,4 @@ class Registration(Base_page):
 
         el = Find_el(browser = self._browser, time=5, path = self.submit).find_by_xpah
         el.click()
+

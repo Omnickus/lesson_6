@@ -1,8 +1,6 @@
 import pytest
-from src.constructor import Find_el
 from src.object_main_page import Main_page
 
-import time
 
 @pytest.mark.main_page
 class Test_main_page:
@@ -24,3 +22,4 @@ class Test_main_page:
 
     def test_main_page_open_product(self, browser):
         Main_page(browser=browser).main_page_open_product()
+

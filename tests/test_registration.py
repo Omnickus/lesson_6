@@ -10,3 +10,4 @@ import time
 @pytest.mark.registration
 def test_registration_page(browser):
     Registration(browser=browser).registration_user()
+

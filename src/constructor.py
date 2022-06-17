@@ -69,3 +69,4 @@ class Actions:
         action.click(on_element = self._el)
         action.perform()
         action.reset_actions()
+

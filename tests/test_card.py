@@ -6,3 +6,4 @@ from src.object_card import Card
 def test_main_page_featured(path, browser):
     browser.get(browser.url)
     Card(browser=browser).card(path = path)
+

@@ -12,3 +12,4 @@ def test_add_new_item(browser):
 @pytest.mark.admin
 def test_del_item(browser):
     Admin_page(browser).del_item()
+

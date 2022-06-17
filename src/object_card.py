@@ -18,3 +18,5 @@ class Card(Base_page):
         Find_el(path = 'Tweet', browser = self._browser, time = 5).find_by_link_text
         Find_el(path = 'Description', browser = self._browser, time = 5).find_by_link_text
         Find_el(path = '//*[contains(text(), "Reviews")]', browser = self._browser, time = 5).find_by_xpah
+
+

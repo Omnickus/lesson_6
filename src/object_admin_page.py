@@ -136,3 +136,4 @@ class Admin_page(Base_page):
         # Проверяю, что появилось сообщение с успешным удалением
         el = Find_el(path = '//*[@id="content"]/div[2]/div[1]/i', browser=self._browser, time=15).find_by_xpah
 
+

@@ -34,3 +34,5 @@ class Main_page(Base_page):
         fetured_items[2].location_once_scrolled_into_view
         fetured_items[2].click()
         self._browser.find_elements_by_link_text("Apple Cinema")
+
+
