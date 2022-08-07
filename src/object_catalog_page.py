@@ -1,4 +1,5 @@
-from src.base_page import Base_page
+from src.base.base_page import Base_page
+from src.base.logger import Logger
 from src.constructor import Find_el
 
 class Catalog(Base_page):
@@ -23,8 +24,10 @@ class Catalog(Base_page):
 
     def catalog(self, url):
         self._browser.get(self._browser.url + url)
+        Logger(f'Открыл страницу - {self._browser.url + url}').infolog
         Find_el(path = self.common_elements['элементы_сеткой'], browser = self._browser, time = 5).find_by_xpah
         Find_el(path = self.common_elements['элементы_списком'], browser = self._browser, time = 5).find_by_xpah
         Find_el(path = self.common_elements['сортирвка_товара'], browser = self._browser, time = 5).find_by_xpah
         Find_el(path = self.common_elements['количество_товаров_на_странице'], browser = self._browser, time = 5).find_by_xpah
+        Logger(f'Все общие элементы присутствуют - {self._browser.url + url}').infolog
 

@@ -1,4 +1,5 @@
-from src.base_page import Base_page
+from src.base.base_page import Base_page
+from src.base.logger import Logger
 from src.constructor import Find_el
 
 class Card(Base_page):
@@ -13,6 +14,7 @@ class Card(Base_page):
     ]
 
     def card(self, path):
+        Logger(f'Проверяю элементы карточки по пути - {path}').infolog
         Find_el(path = path, browser = self._browser, time = 5).find_by_xpah.click()
         Find_el(path = 'button-cart', browser = self._browser, time = 5).find_by_id
         Find_el(path = 'Tweet', browser = self._browser, time = 5).find_by_link_text

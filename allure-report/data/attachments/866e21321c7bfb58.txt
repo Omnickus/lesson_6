@@ -1,0 +1,2 @@
+[32mINFO    [0m MPP-SELENIUM:logger.py:38 Открыл страницу - http://localhost:80
+[32mINFO    [0m MPP-SELENIUM:logger.py:38 Проверяю элементы карточки по пути - //*[@id='content']/div[2]/div[2]/div/div[2]/h4/a

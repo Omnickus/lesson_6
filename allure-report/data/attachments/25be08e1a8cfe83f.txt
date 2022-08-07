@@ -1,0 +1,11 @@
+[32mINFO    [0m MPP-SELENIUM:logger.py:38 Кликнул на мой аккаунт
+[32mINFO    [0m MPP-SELENIUM:logger.py:38 Кликнул на регистрацию
+[32mINFO    [0m MPP-SELENIUM:logger.py:38 Ввёл имя
+[32mINFO    [0m MPP-SELENIUM:logger.py:38 Ввёл фамилию
+[32mINFO    [0m MPP-SELENIUM:logger.py:38 Ввёл почту
+[32mINFO    [0m MPP-SELENIUM:logger.py:38 Ввёл номер телефона
+[32mINFO    [0m MPP-SELENIUM:logger.py:38 Ввёл пароль
+[32mINFO    [0m MPP-SELENIUM:logger.py:38 Повторил пароль
+[32mINFO    [0m MPP-SELENIUM:logger.py:38 Кликнул на подписку
+[32mINFO    [0m MPP-SELENIUM:logger.py:38 Кликнул на соглашение
+[32mINFO    [0m MPP-SELENIUM:logger.py:38 Нажал подтвердить

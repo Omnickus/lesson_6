@@ -1,0 +1,2 @@
+[32mINFO    [0m MPP-SELENIUM:logger.py:38 Открыл страницу - http://localhost:80/tablet
+[32mINFO    [0m MPP-SELENIUM:logger.py:38 Все общие элементы присутствуют - http://localhost:80/tablet
